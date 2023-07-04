@@ -1,0 +1,85 @@
+h3 {
+	margin: 0 auto;
+	max-width: fit-content;
+	font-family: 'Cinzel', serif;
+	font-size: 35%;
+	color: #000000
+}
+p,li {
+	font-family: 'Source Code Pro', monospace;
+	margin-top: 25px;
+	color: #ffffff;
+}
+a { color: #ffffff; }
+html { background-color: #A9A9A9; }
+
+/*/ ID /*/
+
+#extraDiv1{
+	background-image: url(../photo/eu.jpeg);
+	position: relative;
+	left: 130vh;
+	margin-top: -178vh;
+	width: 392px;
+	height: 465px;
+}
+
+#extraDiv2{
+	background-image: url(../photo/gremio.png);
+	position: relative;
+	left: 130vh;
+	margin-top: 30vh;
+	width: 26%;
+	height: 60%;
+}
+#container {
+	margin: 0 auto;
+	width: fit-content;
+}
+#extraDiv1,#jar-sobre,#jar-hobby,#jar-cidades{
+	background-color: #25242a6a;
+	border-radius: 50px;
+	width: 35%;
+	border: 10px solid #25242a6a;
+}
+#jar-sobre {
+	padding: 100px 100px;
+	margin-top: 23%;
+}
+#jar-hobby {
+	padding: 100px 100px;
+	margin-top: 10%;
+}
+#jar-cidades {
+	padding: 100px 100px;
+	margin-top: 10%;
+}
+
+/*/ CLASS /*/
+
+.header {
+	margin-top: 50%;
+}
+.h3 {
+	color: #ffffff;
+	margin: 0 auto;
+	width: fit-content;
+}
+.header h2 {
+	margin: 0 auto;
+	max-width: fit-content;
+	font-size: 30px;
+	color: #000000	;
+	font-family: 'Crimson Text', serif;
+}
+.header h1 {
+	margin: 0 auto;
+	max-width: fit-content;
+	font-size: 15vh;
+	color: #000000	;
+	font-family: 'Varela Round', sans-serif;
+}	
+
+.sobre:hover { transform: scale(1.1); } 
+.cidades:hover { transform: scale(1.1); }
+.hobby:hover { transform: scale(1.1); }
